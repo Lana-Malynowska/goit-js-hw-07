@@ -163,3 +163,61 @@ h1 {
   margin: 0 auto;
   cursor: pointer;
 }
+
+#controls {
+  border-radius: 8px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+#controls input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 0;
+  text-align: center;
+  font-family: inherit;
+  width: 150px;
+  height: 40px;
+  outline: none;
+  background-color: transparent;
+}
+
+#controls input:hover {
+  border: 1px solid #000;
+}
+
+#controls button {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+#boxes {
+  width: 486px;
+  background: #f6f6fe;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 44px;
+}
+
+.create-button:hover {
+  background-color: #6c8cff;
+}
+
+.destroy-button:hover {
+  background-color: #ff7070;
+}
